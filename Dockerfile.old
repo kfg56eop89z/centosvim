@@ -1,0 +1,5 @@
+FROM centos:8
+LABEL maintainer="franck bansept"
+LABEL extra="vim"
+RUN yum check -y && yum install -y vim && yum clean all
+
