@@ -1,4 +1,0 @@
-FROM scratch
-ADD archive.tar.gz /
-LABEL version="alpha" maintainer="tom" extra="vim"
-CMD ["/bin/bash"]
